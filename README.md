@@ -12,15 +12,19 @@
 건설프로젝트는 공기 지연, 건설 재해 등 다양한 원인으로 인한 리스크가 존재한다. 이러한 건설 리스크를 기반으로 건설프로젝트의 공사 기간의 산정 방법은 주로 감독자 경험에 의존한 주관적 판단으로 이루어지고 있다. 또한, 공기 지연과 건설 재해로 지연된 건설프로젝트 일정을 맞추기 위한 무리한 단축 시공은 부실시공 등의 부정적인 결과를 초래하며, 지연된 일정으로 인한 사회 기반 시설물 부재로 경제적 손실이 발생한다. 이러한 건설프로젝트의 리스크 해결을 위한 데이터 기반의 과학적 접근과 통계적 분석이 필요한 실정이다. 실제 건설프로젝트에서 수집되는 데이터는 비정형 텍스트 형태로 저장되어 있어 데이터를 기반으로 한 리스크를 적용하기 위해서는 데이터 전처리에 많은 인력과 비용을 수반하기 때문에 텍스트 마이닝을 활용한 데이터 분류 모델을 통한 기초자료를 요구한다. 따라서, 본 연구에서는 건설프로젝트 문서를 수집하여 텍스트 마이닝을 활용하여 SVM(Support Vector Machine) 기반의 데이터 분류 모델을 통해 리스크 관리를 위한 문서 기초자료 생성 분류 모델을 개발하였다. 향후 연구 결과를 통해 정량적인 분석을 통해서 건설프로젝트 공정관리 등에 있어 효율적이고 객관적인 기초자료로 활용되어 리스크 관리가 가능해질 것으로 기대된다.
 ### Figures
 <p align="center">
-<img src="Average Performance.png" width="1000px"/>
+<img src="process.jpg" width="1000px"/>
 </p>
 
 <p align="center">
-<img src="Construction Work Breakdown Structure(WBS) Classification Criteria.png" width="500px"/>
+<img src="Average Performance.png" width="750px"/>
 </p>
 
 <p align="center">
-<img src="Predictive Performance of Machine Learning Algorithms Using Data normalization.png" width="500px"/>
+<img src="Construction Work Breakdown Structure(WBS) Classification Criteria.jpg" width="500px"/>
+</p>
+
+<p align="center">
+<img src="Predictive Performance of Machine Learning Algorithms Using Data normalization.jpg" width="500px"/>
 </p>
 
 This repository contains the code(not providing dataset) for the following paper.
